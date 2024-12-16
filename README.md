@@ -1,57 +1,95 @@
-<h1>Hospital Management System: Queuing Models, Bed Availability, Patient Admissions, and Inventory Management</h1>
-<hr/>
+# Hospital Management System
 
-<h2>Overview</h2>
+## Overview
+This project offers a comprehensive technological solution to streamline key hospital operations, enhancing efficiency and patient care. It includes features for:
 
+- **Queuing Models for OPDs**: Efficiently manage patient flow and reduce waiting times.
+- **Bed Availability Management**: Track and allocate beds to optimize patient accommodation.
+- **Patient Admissions**: Simplify the process of patient intake and registration.
+- **Inventory Management**: Monitor and control the inventory of medicines and consumables.
 
-This project provides a comprehensive technological solution for managing key aspects of hospital operations, including:
+---
 
-<p>Queuing Models for OPDs: Efficiently manage patient flow and reduce waiting times.</p>
-<p>Bed Availability Management: Track and allocate beds to optimize patient accommodation.</p>
-<p>Patient Admissions: Streamline the process of patient intake and registration.</p>
-<p>Inventory Management: Monitor and control the inventory of medicines and consumables.</p>
+## Features
 
-<h2>Features</h2>
+### Queuing Models for OPDs
+- **Dynamic Queuing**: Automatically adjust patient queues based on real-time data.
+- **Appointment Scheduling**: Integrate with scheduling systems to manage patient appointments.
+- **Queue Tracking**: Monitor patient wait times and queue statuses.
 
+### Bed Availability Management
+- **Real-Time Tracking**: View current bed availability and occupancy status.
+- **Allocation System**: Assign beds to patients based on availability and needs.
+- **Reporting**: Generate detailed reports on bed utilization and occupancy trends.
 
-<h3>Queuing Models for OPDs</h3>
+### Patient Admissions
+- **Streamlined Registration**: Simplify the patient admission process with digital forms and automation.
+- **Patient Records**: Maintain comprehensive patient records and history.
+- **Integration**: Seamlessly integrate with other hospital systems for a unified experience.
 
-Dynamic Queuing: Automatically adjust patient queues based on real-time data.<br/>
-Appointment Scheduling: Integrate with scheduling systems to manage patient appointments.<br/>
-Queue Tracking: Monitor patient wait times and queue statuses.
+### Inventory Management
+- **Medicine Tracking**: Monitor inventory levels of medicines and consumables.
+- **Automated Alerts**: Receive notifications for low stock levels and expiration dates.
+- **Order Management**: Facilitate procurement and manage supplier relationships.
 
-<h3>Bed Availability Management</h3>
+---
 
-Real-Time Tracking: View current bed availability and occupancy status.<br/>
-Allocation System: Assign beds to patients based on availability and needs.<br/>
-Reporting: Generate reports on bed utilization and occupancy trends.
+## Technologies Used
 
-<h3>Patient Admissions</h3>
+### Programming Languages
+- **HTML**: For structuring the web application.
+- **CSS**: For styling and creating a user-friendly interface.
+- **JavaScript**: For dynamic functionality and interactivity.
 
-Streamlined Registration: Simplify the patient admission process with digital forms and automation.<br/>
-Patient Records: Maintain comprehensive patient records and history.<br/>
-Integration: Seamlessly integrate with other hospital systems for a unified experience.
+### Databases
+- **Firebase Realtime Database**: To store and manage real-time data efficiently.
 
-<h3>Inventory Management</h3>
+### Tools
+- **Firebase Services**: For authentication, hosting, and real-time database integration.
 
-Medicine Tracking: Monitor inventory levels of medicines and consumables.<br/>
-Automated Alerts: Receive notifications for low stock levels and expiration dates.<br/>
-Order Management: Facilitate procurement and manage supplier relationships.
-<hr/>
+---
 
-<h2>Technologies used -- </h2>
-<h3>Programming Languages : </h3>
-<ul>
- <li>HTML</li>
- <li>CSS</li>
- <li>JAVASCRIPT</li>
-</ul>
-<h3>Databases : </h3>
-<ul>
- <li>Firebase Realtime Database</li>
-</ul>
-<h3>Tools :</h3>
-<ul>
- <li>Firebase Services</li>
-</ul>
+## Installation and Setup
+
+### Prerequisites
+- Ensure you have a modern web browser installed.
+- A Google Firebase account for database and hosting setup.
+
+### Steps
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/souradeepdutta/Digital-OPD-Management.git
+   ```
+2. Navigate to the project directory
+
+3. Set up Firebase:
+   - Create a Firebase project.
+   - Enable Firebase Realtime Database and Authentication.
+   - Update the Firebase configuration in the project.
+4. Open the `dashboard.html` file in your browser to view the application.
+
+---
+
+## Usage
+
+### Queuing Models for OPDs
+- Navigate to the OPD section to view and manage patient queues.
+- Use the appointment scheduling feature to book slots for patients.
+
+### Bed Availability Management
+- Access the bed management module to view current bed availability.
+- Assign beds to patients and generate reports as needed.
+
+### Patient Admissions
+- Use the admission form to register new patients.
+- View and update patient records in the dashboard.
+
+### Inventory Management
+- Check the inventory dashboard to monitor stock levels.
+- Set thresholds for low stock alerts and manage supplier orders.
+
+---
+
+## License
+This project is licensed under the [MIT License](LICENSE).
 
